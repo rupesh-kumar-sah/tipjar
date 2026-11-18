@@ -16,10 +16,10 @@
     "dist"
   ],
   "scripts": {
-    "build": "node init && vite build",
+    "build": "vite build",
     "typecheck": "tsc --noEmit",
     "lint": "echo 'lint not configured yet'",
-    "dev": "node init && vite build --watch",
+    "dev": "vite build --watch",
     "test": "echo 'tests not configured yet'"
   },
   "dependencies": {
